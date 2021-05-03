@@ -1,2 +1,9 @@
 server:
   port: 7020
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oli_saude?useSSL=false&useTimezone=true&serverTimezone=UTC
+    username: root
+    password: google
